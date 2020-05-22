@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>iotready Login Example</title>
+</head>
+<body>
+	<script src="../../dist/iotready.min.js"></script>
+	<script>
+		var iotready = new iotready();
+		iotready.login({ username: 'user@iotready.it', password: 'p4ssw0rd' })
+			.then(function(result) {
+				console.log('Your access token', result.body.access_token);
+				iotready.listDevices({ 
+					auth: result.body.access_token 
+				}).then(function(result) {
+					console.log(result)
+				});
+			}, function(err) {
+				console.error(err);
+			});
+	</script>
+</body>
+</html>

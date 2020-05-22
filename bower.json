@@ -1,0 +1,27 @@
+{
+  "name": "iotready-api-js",
+  "homepage": "https://github.com/iotready-iot/iotready-api-js",
+  "description": "iotready API JavaScript library",
+  "main": "dist/iotready.min.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "iotready",
+    "IoT"
+  ],
+  "license": "LGPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iotready-it/iotready-api-js.git"
+  }
+}

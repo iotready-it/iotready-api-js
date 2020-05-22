@@ -1,0 +1,14 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.lock-wscript
+build/Release
+node_modules
+lib/
+/.idea
+*.tgz
+.DS_Store
