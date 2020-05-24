@@ -299,7 +299,7 @@ class iotready {
 	 * @param  {String} options.auth     Access Token
 	 * @returns {Promise} A promise
 	 */
-	get({ deviceId, name, product, auth, context }){
+	getVariable({ deviceId, name, product, auth, context }){
 		const uri = product ?
 			`/v1/products/${product}/devices/${deviceId}/${name}` :
 			`/v1/devices/${deviceId}/${name}`;
@@ -316,7 +316,7 @@ class iotready {
 	 * @param  {String} options.auth     Access Token
 	 * @returns {Promise} A promise
 	 */
-	post({ deviceId, name, argument, product, auth, context }){
+	postFunction({ deviceId, name, argument, product, auth, context }){
 		const uri = product ?
 			`/v1/products/${product}/devices/${deviceId}/${name}` :
 			`/v1/devices/${deviceId}/${name}`;
