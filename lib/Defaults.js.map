@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/Defaults.js"],"names":["baseUrl","clientSecret","clientId"],"mappings":";;;;;kBAAe;AACdA,UAAS,yBADK;AAEdC,eAAc,UAFA;AAGdC,WAAU;AAHI,C","file":"Defaults.js","sourcesContent":["export default {\n\tbaseUrl: 'https://api.iotready.it',\n\tclientSecret: 'iotready',\n\tclientId: 'iotready'\n};\n"]}
